@@ -26,6 +26,7 @@ pipeline {
                         ],
                     ],
                     submoduleCfg: [],
+                    //userRemoteConfigs: [[credentialsId: 'GITHUB_PAT', url: params.GIT_URL]]
                     userRemoteConfigs: [
                         [
                             url: params.GIT_URL,
